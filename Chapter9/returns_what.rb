@@ -1,4 +1,13 @@
-return_val = puts 'This puts returned:  '
-puts return_val
-
-puts puts
+def fav_food name
+  if name == 'Lex'
+    return 'barf'
+  end
+  
+  'What is going on here?'
+end
+  
+  puts fav_food 'Lex'
+  puts fav_food 'honk'
+  
+  
+  
